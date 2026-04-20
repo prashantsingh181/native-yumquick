@@ -1,14 +1,11 @@
 import { fontFamily } from '@/assets/fonts';
 import { buttonStyles } from '@/styles/buttonStyles';
 import { colors } from '@/styles/colors';
-import { Dimensions, Image, StyleSheet } from 'react-native';
+import { Dimensions, StyleSheet } from 'react-native';
 
 const height = Dimensions.get('window').height;
 const logoHeight = height * 0.3;
 let logoWidth = logoHeight;
-Image.getSize(require('@/assets/logos/logo-yellow.png').uri, (w, h) => {
-  logoWidth = logoHeight * (w / h);
-});
 
 export const styles = StyleSheet.create({
   container: {
@@ -18,7 +15,7 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 20,
   },
   logo: {
-    height: height * 0.3,
+    height: logoHeight,
     marginHorizontal: 'auto',
     resizeMode: 'contain',
   },
@@ -28,7 +25,7 @@ export const styles = StyleSheet.create({
   },
   tagLine: {
     fontFamily: fontFamily.medium,
-    fontSize: 18,
+    fontSize: 16,
     color: colors.textLight,
     textAlign: 'center',
     marginTop: 30,

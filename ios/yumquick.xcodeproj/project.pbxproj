@@ -7,42 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C80B921A6F3F58F76C31292 /* libPods-AwesomeProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-AwesomeProject.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		C3C56D6D5B5C9691C81467B7 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
-		99B3C892B9FA4B4191482F62 /* LeagueSpartanExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A976A246717D4D49A5A1A6D6 /* LeagueSpartanExtraLight.ttf */; };
-		81A8F96904D0475D9D41AF2B /* LeagueSpartanThin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F03005B2369041E08BB9C0E4 /* LeagueSpartanThin.ttf */; };
-		3BA6829565E74BB789831079 /* LeagueSpartanBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F21E9EE71DF40039BAE06E5 /* LeagueSpartanBold.ttf */; };
-		82A35695B4FE4D2A865DFC5E /* LeagueSpartanBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2D3595B25F842A78C0936BB /* LeagueSpartanBlack.ttf */; };
-		B352B5B70D544E3FB3EA515A /* LeagueSpartanRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADF9E3F09051455698B51AFE /* LeagueSpartanRegular.ttf */; };
+		1D88799916BBDAF4337821C6 /* libPods-yumquick.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74D794687127935DDD760744 /* libPods-yumquick.a */; };
 		21DB17C136DC44F6BC90C7B3 /* LeagueSpartanLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DCCF0D172B54BFCAB68FB35 /* LeagueSpartanLight.ttf */; };
+		3BA6829565E74BB789831079 /* LeagueSpartanBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F21E9EE71DF40039BAE06E5 /* LeagueSpartanBold.ttf */; };
 		59D155A6888B477F83BFF3F8 /* LeagueSpartanSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAEE290C60544BE68A63380B /* LeagueSpartanSemiBold.ttf */; };
 		73A972A223D2464BA7163142 /* LeagueSpartanMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6E716493B2342DB9A9B25C7 /* LeagueSpartanMedium.ttf */; };
+		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		81A8F96904D0475D9D41AF2B /* LeagueSpartanThin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F03005B2369041E08BB9C0E4 /* LeagueSpartanThin.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		82A35695B4FE4D2A865DFC5E /* LeagueSpartanBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2D3595B25F842A78C0936BB /* LeagueSpartanBlack.ttf */; };
+		99B3C892B9FA4B4191482F62 /* LeagueSpartanExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A976A246717D4D49A5A1A6D6 /* LeagueSpartanExtraLight.ttf */; };
+		B352B5B70D544E3FB3EA515A /* LeagueSpartanRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADF9E3F09051455698B51AFE /* LeagueSpartanRegular.ttf */; };
+		C3C56D6D5B5C9691C81467B7 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 		F0EBAEF5D5BA4E8B9B0EF192 /* LeagueSpartanExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4F17695619D4E3398B07CB8 /* LeagueSpartanExtraBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		13B07F961A680F5B00A75B9A /* AwesomeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AwesomeProject/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AwesomeProject/Info.plist; sourceTree = "<group>"; };
-		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = AwesomeProject/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		3B4392A12AC88292D35C810B /* Pods-AwesomeProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeProject.debug.xcconfig"; path = "Target Support Files/Pods-AwesomeProject/Pods-AwesomeProject.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-AwesomeProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeProject.release.xcconfig"; path = "Target Support Files/Pods-AwesomeProject/Pods-AwesomeProject.release.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-AwesomeProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AwesomeProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = AwesomeProject/AppDelegate.swift; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AwesomeProject/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* yumquick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yumquick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = yumquick/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = yumquick/Info.plist; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = yumquick/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		2A098507B830B2994F1D67D0 /* Pods-yumquick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yumquick.debug.xcconfig"; path = "Target Support Files/Pods-yumquick/Pods-yumquick.debug.xcconfig"; sourceTree = "<group>"; };
+		4DCCF0D172B54BFCAB68FB35 /* LeagueSpartanLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = LeagueSpartanLight.ttf; path = ../src/assets/fonts/LeagueSpartanLight.ttf; sourceTree = "<group>"; };
+		74D794687127935DDD760744 /* libPods-yumquick.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-yumquick.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = yumquick/AppDelegate.swift; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = yumquick/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F21E9EE71DF40039BAE06E5 /* LeagueSpartanBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = LeagueSpartanBold.ttf; path = ../src/assets/fonts/LeagueSpartanBold.ttf; sourceTree = "<group>"; };
+		9EE509CD5C9CA40CA8EDB5B0 /* Pods-yumquick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yumquick.release.xcconfig"; path = "Target Support Files/Pods-yumquick/Pods-yumquick.release.xcconfig"; sourceTree = "<group>"; };
+		A976A246717D4D49A5A1A6D6 /* LeagueSpartanExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = LeagueSpartanExtraLight.ttf; path = ../src/assets/fonts/LeagueSpartanExtraLight.ttf; sourceTree = "<group>"; };
+		ADF9E3F09051455698B51AFE /* LeagueSpartanRegular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = LeagueSpartanRegular.ttf; path = ../src/assets/fonts/LeagueSpartanRegular.ttf; sourceTree = "<group>"; };
+		BAEE290C60544BE68A63380B /* LeagueSpartanSemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = LeagueSpartanSemiBold.ttf; path = ../src/assets/fonts/LeagueSpartanSemiBold.ttf; sourceTree = "<group>"; };
+		C4F17695619D4E3398B07CB8 /* LeagueSpartanExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = LeagueSpartanExtraBold.ttf; path = ../src/assets/fonts/LeagueSpartanExtraBold.ttf; sourceTree = "<group>"; };
+		E2D3595B25F842A78C0936BB /* LeagueSpartanBlack.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = LeagueSpartanBlack.ttf; path = ../src/assets/fonts/LeagueSpartanBlack.ttf; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		A976A246717D4D49A5A1A6D6 /* LeagueSpartanExtraLight.ttf */ = {isa = PBXFileReference; name = "LeagueSpartanExtraLight.ttf"; path = "../src/assets/fonts/LeagueSpartanExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F03005B2369041E08BB9C0E4 /* LeagueSpartanThin.ttf */ = {isa = PBXFileReference; name = "LeagueSpartanThin.ttf"; path = "../src/assets/fonts/LeagueSpartanThin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8F21E9EE71DF40039BAE06E5 /* LeagueSpartanBold.ttf */ = {isa = PBXFileReference; name = "LeagueSpartanBold.ttf"; path = "../src/assets/fonts/LeagueSpartanBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E2D3595B25F842A78C0936BB /* LeagueSpartanBlack.ttf */ = {isa = PBXFileReference; name = "LeagueSpartanBlack.ttf"; path = "../src/assets/fonts/LeagueSpartanBlack.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		ADF9E3F09051455698B51AFE /* LeagueSpartanRegular.ttf */ = {isa = PBXFileReference; name = "LeagueSpartanRegular.ttf"; path = "../src/assets/fonts/LeagueSpartanRegular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4DCCF0D172B54BFCAB68FB35 /* LeagueSpartanLight.ttf */ = {isa = PBXFileReference; name = "LeagueSpartanLight.ttf"; path = "../src/assets/fonts/LeagueSpartanLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		BAEE290C60544BE68A63380B /* LeagueSpartanSemiBold.ttf */ = {isa = PBXFileReference; name = "LeagueSpartanSemiBold.ttf"; path = "../src/assets/fonts/LeagueSpartanSemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F6E716493B2342DB9A9B25C7 /* LeagueSpartanMedium.ttf */ = {isa = PBXFileReference; name = "LeagueSpartanMedium.ttf"; path = "../src/assets/fonts/LeagueSpartanMedium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C4F17695619D4E3398B07CB8 /* LeagueSpartanExtraBold.ttf */ = {isa = PBXFileReference; name = "LeagueSpartanExtraBold.ttf"; path = "../src/assets/fonts/LeagueSpartanExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F03005B2369041E08BB9C0E4 /* LeagueSpartanThin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = LeagueSpartanThin.ttf; path = ../src/assets/fonts/LeagueSpartanThin.ttf; sourceTree = "<group>"; };
+		F6E716493B2342DB9A9B25C7 /* LeagueSpartanMedium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = LeagueSpartanMedium.ttf; path = ../src/assets/fonts/LeagueSpartanMedium.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,14 +50,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-AwesomeProject.a in Frameworks */,
+				1D88799916BBDAF4337821C6 /* libPods-yumquick.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		13B07FAE1A68108700A75B9A /* AwesomeProject */ = {
+		13B07FAE1A68108700A75B9A /* yumquick */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -66,16 +66,33 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
 			);
-			name = AwesomeProject;
+			name = yumquick;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-AwesomeProject.a */,
+				74D794687127935DDD760744 /* libPods-yumquick.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3514128B41CC4ED580EE1EE5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A976A246717D4D49A5A1A6D6 /* LeagueSpartanExtraLight.ttf */,
+				F03005B2369041E08BB9C0E4 /* LeagueSpartanThin.ttf */,
+				8F21E9EE71DF40039BAE06E5 /* LeagueSpartanBold.ttf */,
+				E2D3595B25F842A78C0936BB /* LeagueSpartanBlack.ttf */,
+				ADF9E3F09051455698B51AFE /* LeagueSpartanRegular.ttf */,
+				4DCCF0D172B54BFCAB68FB35 /* LeagueSpartanLight.ttf */,
+				BAEE290C60544BE68A63380B /* LeagueSpartanSemiBold.ttf */,
+				F6E716493B2342DB9A9B25C7 /* LeagueSpartanMedium.ttf */,
+				C4F17695619D4E3398B07CB8 /* LeagueSpartanExtraBold.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -88,7 +105,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* AwesomeProject */,
+				13B07FAE1A68108700A75B9A /* yumquick */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
@@ -103,7 +120,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* AwesomeProject.app */,
+				13B07F961A680F5B00A75B9A /* yumquick.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,51 +128,34 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-AwesomeProject.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-AwesomeProject.release.xcconfig */,
+				2A098507B830B2994F1D67D0 /* Pods-yumquick.debug.xcconfig */,
+				9EE509CD5C9CA40CA8EDB5B0 /* Pods-yumquick.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		3514128B41CC4ED580EE1EE5 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				A976A246717D4D49A5A1A6D6 /* LeagueSpartanExtraLight.ttf */,
-				F03005B2369041E08BB9C0E4 /* LeagueSpartanThin.ttf */,
-				8F21E9EE71DF40039BAE06E5 /* LeagueSpartanBold.ttf */,
-				E2D3595B25F842A78C0936BB /* LeagueSpartanBlack.ttf */,
-				ADF9E3F09051455698B51AFE /* LeagueSpartanRegular.ttf */,
-				4DCCF0D172B54BFCAB68FB35 /* LeagueSpartanLight.ttf */,
-				BAEE290C60544BE68A63380B /* LeagueSpartanSemiBold.ttf */,
-				F6E716493B2342DB9A9B25C7 /* LeagueSpartanMedium.ttf */,
-				C4F17695619D4E3398B07CB8 /* LeagueSpartanExtraBold.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		13B07F861A680F5B00A75B9A /* AwesomeProject */ = {
+		13B07F861A680F5B00A75B9A /* yumquick */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AwesomeProject" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "yumquick" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				FF58BB6EE1F19EC0E19D2B14 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				59A2AD02FD1760342147E7F0 /* [CP] Embed Pods Frameworks */,
+				128653033804AC042A52529A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AwesomeProject;
-			productName = AwesomeProject;
-			productReference = 13B07F961A680F5B00A75B9A /* AwesomeProject.app */;
+			name = yumquick;
+			productName = yumquick;
+			productReference = 13B07F961A680F5B00A75B9A /* yumquick.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -171,7 +171,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AwesomeProject" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "yumquick" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -184,7 +184,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* AwesomeProject */,
+				13B07F861A680F5B00A75B9A /* yumquick */,
 			);
 		};
 /* End PBXProject section */
@@ -228,24 +228,41 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"\\\"$WITH_ENVIRONMENT\\\" \\\"$REACT_NATIVE_XCODE\\\"\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+		128653033804AC042A52529A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AwesomeProject/Pods-AwesomeProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-yumquick/Pods-yumquick-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AwesomeProject/Pods-AwesomeProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-yumquick/Pods-yumquick-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AwesomeProject/Pods-AwesomeProject-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-yumquick/Pods-yumquick-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		59A2AD02FD1760342147E7F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-yumquick/Pods-yumquick-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-yumquick/Pods-yumquick-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-yumquick/Pods-yumquick-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF58BB6EE1F19EC0E19D2B14 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -260,28 +277,11 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AwesomeProject-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-yumquick-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AwesomeProject/Pods-AwesomeProject-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AwesomeProject/Pods-AwesomeProject-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AwesomeProject/Pods-AwesomeProject-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -300,13 +300,14 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-AwesomeProject.debug.xcconfig */;
+			baseConfigurationReference = 2A098507B830B2994F1D67D0 /* Pods-yumquick.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = AwesomeProject/Info.plist;
+				INFOPLIST_FILE = yumquick/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = yumquick;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -318,8 +319,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = AwesomeProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yumquick;
+				PRODUCT_NAME = yumquick;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -330,12 +331,13 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-AwesomeProject.release.xcconfig */;
+			baseConfigurationReference = 9EE509CD5C9CA40CA8EDB5B0 /* Pods-yumquick.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = AwesomeProject/Info.plist;
+				INFOPLIST_FILE = yumquick/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = yumquick;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -347,8 +349,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = AwesomeProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yumquick;
+				PRODUCT_NAME = yumquick;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -515,7 +517,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AwesomeProject" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "yumquick" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -524,7 +526,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AwesomeProject" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "yumquick" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

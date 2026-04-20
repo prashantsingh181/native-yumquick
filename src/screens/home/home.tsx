@@ -1,6 +1,8 @@
-import { Text, View } from 'react-native';
+import { useAuth } from '@/context/auth-context';
+import { Text, TouchableHighlight, View } from 'react-native';
 
 export const HomeScreen = () => {
+  const { setUser } = useAuth();
   return (
     <View
       style={{
@@ -11,6 +13,9 @@ export const HomeScreen = () => {
       }}
     >
       <Text>Hello, World!</Text>
+      <TouchableHighlight onPress={() => setUser(null)}>
+        <Text>Logout</Text>
+      </TouchableHighlight>
     </View>
   );
 };

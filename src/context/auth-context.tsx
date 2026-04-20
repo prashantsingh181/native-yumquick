@@ -14,16 +14,10 @@ export const useAuth = () => {
 };
 
 export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
-  const { isValueLoaded, value: user } = useStorage(STORAGE_KEYS.AUTH, null);
+  const { isValueLoaded, value: user, setValue: setUser } = useStorage(STORAGE_KEYS.AUTH, null);
   const isLoggedIn = !!user;
   const isAuthLoading = !isValueLoaded;
-  console.log(
-    'AuthProvider: isLoggedIn=',
-    isLoggedIn,
-    'isAuthLoading=',
-    isAuthLoading,
-  );
   return (
-    <AuthContext value={{ isLoggedIn, isAuthLoading }}>{children}</AuthContext>
+    <AuthContext value={{ isLoggedIn, isAuthLoading, setUser }}>{children}</AuthContext>
   );
 };
